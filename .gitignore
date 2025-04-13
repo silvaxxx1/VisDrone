@@ -1,0 +1,9 @@
+# Ignore video files
+*.mp4
+
+# Ignore YOLO model weights
+*.pt
+
+# Ignore common system/editor files
+.DS_Store
+*.swp
