@@ -7,3 +7,12 @@
 # Ignore common system/editor files
 .DS_Store
 *.swp
+
+# Model weights
+*.pt
+*.pth
+
+# Media files
+*.mp4
+*.avi
+output_*.mp4

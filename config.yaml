@@ -1,0 +1,22 @@
+# config.yaml
+roboflow:
+  api_key: "your_api_key_here"  # Can override with --api-key
+  workspace: "enes-v8muh"
+  project: "my-first-project-lk9ki"
+
+dataset:
+  name: "my-first-project-lk9ki-1"
+  version: 1
+  overwrite: False
+
+model:
+  path: "Yolo11m.pt"
+
+validation:
+  batch_size: 16
+  imgsz: 640
+  conf_threshold: 0.001
+  iou_threshold: 0.6
+
+hardware:
+  device: "auto"  # cpu, cuda, or auto-detect
