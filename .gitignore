@@ -1,18 +1,50 @@
-# Ignore video files
+# ===================== #
+# Project-Specific Ignores
+# ===================== #
+
+# Datasets directory
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Video files
 *.mp4
+*.MP4
+*.avi
+*.mov
+*.mkv
+output_*.mp4
 
-# Ignore YOLO model weights
-*.pt
-
-# Ignore common system/editor files
-.DS_Store
-*.swp
-
-# Model weights
+# YOLO and other model weights
 *.pt
 *.pth
+*.h5
+*.ckpt
 
-# Media files
-*.mp4
-*.avi
-output_*.mp4
+# ===================== #
+# Common Ignores
+# ===================== #
+
+# macOS
+.DS_Store
+
+# Vim/Editor
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (if using)
+.vscode/
+
+# Virtual environments
+venv/
+.env
+.envrc

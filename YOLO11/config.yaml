@@ -1,12 +1,11 @@
-# config.yaml
 roboflow:
-  api_key: "your_api_key_here"  # Can override with --api-key
-  workspace: "enes-v8muh"
-  project: "my-first-project-lk9ki"
+  api_key: "W0tuxZXjcNxtJkv6j9ew"  # Can override with --api-key
+  workspace: "datasets-7vdpa"
+  project: "visdrone-zzrsu"
 
 dataset:
-  name: "my-first-project-lk9ki-1"
-  version: 1
+  name: "visdrone-zzrsu-5"
+  version: 5
   overwrite: False
 
 model:
